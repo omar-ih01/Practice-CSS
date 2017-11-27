@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+            border: 1px solid black;
+            background-color: lightblue;
+        }
+        
+        div.ex1 {
+            padding: 25px 50px 75px 100px;
+        }
+        
+        div.ex2 {
+            padding: 25px 50px 75px;
+        }
+        
+        div.ex3 {
+            padding: 25px 50px;
+        }
+        
+        div.ex4 {
+            padding: 25px;
+        }
+        
+        pre {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Using the padding shorthand property</h2>
+    <div class="ex1">This div element has a top padding of 25px, a right padding of 50px, a bottom padding of 75px and a left padding of 100px.</div><br>
+    <div class="ex2">This div element has a top padding of 25px, a left and right padding of 50px, and a bottom padding of 75px.</div><br>
+
+    <div class="ex3">This div element has a top and bottom padding of 25px, and a left and right padding of 50px.</div><br>
+
+    <div class="ex4">This div element has a top, right, bottom and left paddding of 25px.</div>
+
+
+    <pre>
+    So, here is how it works:
+
+If the padding property has four values:
+
+padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+If the padding property has three values:
+
+padding: 25px 50px 75px; 
+top padding is 25px
+right and left paddings are 50px
+bottom padding is 75px
+If the padding property has two values:
+
+padding: 25px 50px;
+top and bottom paddings are 25px
+right and left paddings are 50px
+If the padding property has one value:
+
+padding: 25px;
+all four paddings are 25px
+Example
+div.ex1 {
+    padding: 25px 50px 75px 100px;
+}
+
+div.ex2 {
+    padding: 25px 50px 75px;
+}
+
+div.ex3 {
+    padding: 25px 50px;
+}
+
+div.ex4 {
+    padding: 25px;
+}
+</pre>
+</body>
+
+</html>

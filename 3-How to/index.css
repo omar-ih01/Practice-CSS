@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+h1#another1 {
+    color: black;
+    text-align: left;
+}
+
+h1#another2 {
+    color: maroon;
+    text-align: left;
+}
+
+h1#another3 {
+    color: yellow;
+    text-align: center;
+}
+
+h1#another4 {
+    color: hotpink;
+    text-align: right;
+}
+
+h1#another5 {
+    color: lime;
+    text-align: right;
+}
+
+p {
+    color: darkblue;
+    font-size: 22px;
+    text-align: center;
+}
+
+ul#menu li {
+    padding: 10;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: blue;
+    color: mediumaquamarine;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+div.cities {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}

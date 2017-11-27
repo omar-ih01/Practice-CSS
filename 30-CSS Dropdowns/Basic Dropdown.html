@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hoverable Dropdown</title>
+	<style>
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: (0,0,0,0.2);
+			padding: 12px 16px;
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<h2>Hoverable Dropdown</h2>
+<p>Move the mouse over the text below to open the dropdown content.</p>
+
+<div class="dropdown">
+<span>Mouse Over me</span>
+<div class="dropdown-content">
+	<p>Hello World</p>
+</div>
+</div>
+
+<pre>উদাহরণের বর্ণনা
+
+এইচটিএমএলঃ
+হোভার করে ড্রপডাউন কন্টেন্ট প্রদর্শনের জন্য একটি এলিমেন্ট ব্যবহার করতে হয়। যেমনঃ span অথবা button> এলিমেন্ট।
+
+ড্রপডাউন কন্টেন্ট রাখার জন্য কন্টেইনার হিসেবে একটি div> এলিমেন্ট ব্যবহার করি।
+
+সিএসএসঃ
+.dropdown ক্লাসে position:relative ব্যবহার করা হয়েছে। এর কারণ আমরা position:absolute ব্যবহার করে কন্টেন্টগুলোকে বাটনের নিচে দেখাতে চাই।
+
+.dropdown-content ক্লাসটির মধ্যে ড্রপডাউন কন্টেন্টগুলো রয়েছে এবং ইহা ডিফল্ট আকারে অদৃশ্য থাকে এবং মাউস নিয়ে গেলে শুধু দেখা যাবে। min-width 160px সেট করা হয়েছে।
+Tip: If you want the width of the dropdown content to be as wide as the dropdown button, set the width to 100% (and overflow:auto to enable scroll on small screens).
+
+ড্রপডাউন আইটেমকে একটি কার্ডের মত দেখানোর জন্য আমরা সিএসএস(৩) এর box-shadow প্রোপার্টি ব্যবহার করেছি।
+
+:hover সিলেক্টরটি ব্যবহার করা হয়েছে ড্রাপডাউন বাটনের উপর মাউস নিয়ে গেলে ড্রপডাউন আইটেমকে প্রদর্শনের জন্য।</pre>
+</body>
+</html>
